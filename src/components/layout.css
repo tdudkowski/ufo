@@ -1,0 +1,51 @@
+body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0; padding:0; box-sizing: border-box;
+    background-image: url(../images/wroclaw-ratusz-big-white1200.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment:fixed; 
+}
+
+ul {padding-left:0; margin:0; list-style-type: none; }
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+.container {max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; min-height: 100vh;
+background-image: linear-gradient(180deg,  rgba(255,250,250,.7) 10%, rgba(255,250,250,.3)); }
+/* header {background-image: url(../images/wroclaw-ratusz-big.jpg);} */
+header h1 {padding: .5rem 1rem; color:#181818; text-align: center;}
+
+main {flex:1; padding:.5rem;}
+main ul {list-style-type:circle; padding-left:1rem;}
+
+.menu-container ul {display:flex; flex-direction: column; background-color: #ffd;}
+.menu-container li {flex:1;}
+.menu-container a {display: block; text-align: center; background-color: rgba(51,51,251,.1); font-size: 1.3rem; padding: .5rem 1rem; color:#181818; font-weight:600;}
+.menu-container .active {background-color: rgba(250,250, 51, .3);}
+
+.hero {margin:1rem; padding:0; box-shadow: 5px 5px 20px rgba(51,51,51,.2); background-color: rgba(250,250,250,.4);}
+.hero p {margin:0 0 0 10rem; padding:.5rem;}
+
+.offer {display: flex; flex-direction: column; }
+.offer section { box-shadow: 5px 5px 8px 2px rgba(51,51,51,.5); margin: 1rem 0; filter: opacity(90%);}
+.offer section:hover {background-size: 101%; filter: opacity(100%); box-shadow:7px 7px 8px 2px rgba(51,51,51,.5);}
+.offer h4 {margin:0; background-color: #181848; color:#ffc; padding: .5rem 1rem;}
+.offer li {padding:.5rem 1rem;}
+
+footer { background-color:#181818; color: #838383;}
+footer p {text-align: center;}
+
+@media (min-width: 800px) {
+    .menu-container ul {flex-direction: row;}
+    .offer {flex-direction: row; flex-wrap: wrap; justify-content: space-between; margin: 1rem; padding:0;}
+    .offer section {flex-basis:48%; }    
+}
+
+/*
+#574D68
+#A38560
+#C6A15B
+#F2E86D
+#D3DFB8
+*/
