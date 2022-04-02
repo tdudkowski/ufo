@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 const About = () => {
     return (
         <Layout>
-            <h3>O mnie</h3>
+            <h2>O mnie</h2>
 
             <p>Jestem przewodnikiem od 1977 roku. Zdobyłem uprawnienia jako przewodnik górski po Sudetach w Studenckim Kole Przewodników Sudeckich, a następnie uprawnienia jako przewodnik po Wrocławiu i pilot wycieczek. Posiadam uprawnienia instruktora przewodnictwa i szkolę przyszłych przewodników. Oprócz oprowadzania wycieczek moją pasją jest fotografowanie i publikowanie wszelkich ciekawostek o regionie. Mam w dorobku ponad 100 publikacji i nieraz się zdarzało, że spotykałem na trasie moich czytelników, którzy pragnęli ujrzeć to, o czym wcześniej przeczytali. Więcej o mnie i moich publikacjach można przeczytać na blogu http://whermaszewski.wordpress.com/, a także w miesięczniku „Sudety”, w którym jestem stałym współpracownikiem.</p>
 
@@ -12,7 +12,7 @@ const About = () => {
 
             <p>Przewodnickie Biuro Podróży „Hermaszewski Travel” jest moją inicjatywą, w której chcę otworzyć nowe horyzonty w przewodnictwie dla wszystkich środowisk.</p>
 
-            <h3>Uprawnienia</h3>
+            <h2>Uprawnienia</h2>
 
             <ul>
                 <li>Przewodnik sudecki kl. I</li>

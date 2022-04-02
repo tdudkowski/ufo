@@ -35,9 +35,21 @@ background-color: rgba(250,250,250,.8);
 & ul.krakow {list-style-type: square; }
 & ul.krakow li {background-color: rgba(250,250,250,.4); box-shadow: 4px 4px 8px #ccb; margin: .5rem; padding:.4rem; border:1px solid #dd7; }
 
+& ul.krakowjura {list-style-image: url(${checked}); display:flex; flex-direction:column; background-color: rgba(250, 250, 250,.3); border:1px solid #ddd; box-shadow: 3px 3px 10px #ddc;}
+& ul.krakowjura li {padding:.2rem .5rem; margin: .2rem 1rem;}
+
 & ul.jura {list-style-type:none; display:flex; flex-wrap: wrap;}
 & ul.jura li { position:relative; border:1px solid rgba(51,51,51,.2); padding:5px 10px; border-radius:20px; margin:.5rem; padding-left: 40px;}
 & ul.jura li:before {position:absolute; left:10px;  display:block; content: url(${checked});}
+
+& ul.sztolnia {list-style-type: square; display:flex; flex-direction:column; background-color: rgba(250, 250, 250,.3); border:6px dashed #ddc; border-radius: 2px; }
+& ul.sztolnia li {margin: .2rem; margin-left: 1rem;}
+
+& ul.szwajcaria {list-style-image: url(${checked}); display:flex; flex-wrap:wrap; background-color: rgba(250, 250, 250,.3); border:1px solid #ddd; box-shadow: 3px 3px 10px #ddc; border-radius: 10px;}
+& ul.szwajcaria li {padding:.2rem; margin: .2rem .9rem;}
+
+& ul.glatz {list-style-image: url(${checked}); display:flex; flex-wrap: wrap;  background-color: rgba(250, 250, 250,.8);  }
+& ul.glatz li {margin: .2rem 1rem;}
 
 & table {width:auto !important; margin:1rem;}
 & table thead {background-color: rgba(51,51,51,.05); text-align:center; font-weight:bold;}
